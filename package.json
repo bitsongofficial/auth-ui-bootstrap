@@ -1,0 +1,25 @@
+{
+  "name": "auth-ui-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@bitsongofficial/js-sdk": "file:./lib/bitsongofficial-js-sdk-0.0.3.tgz",
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.0.1",
+    "file-saver": "^2.0.2",
+    "nuxt": "^2.14.0",
+    "nuxt-validate": "^1.0.1",
+    "nuxt-vuex-localstorage": "^1.2.7",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

@@ -1,0 +1,150 @@
+// @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+$body-font-family: "Roboto", sans-serif;
+$heading-font-family: "Nunito Sans", sans-serif; // With or without this line, it still doesn't work
+
+// @import "~vuetify/src/styles/styles.sass";
+
+$headings: (
+  "h2": (
+    "font-family": $heading-font-family
+  )
+);
+
+//@import "@/node_modules/vuetify/src/styles/settings/_variables.scss";
+
+// $headings: map-merge(
+//   $headings,
+//   (
+//     h2: (
+//       "font-family": $heading-font-family
+//     )
+//   )
+// );
+
+//@import "~vuetify/src/styles/styles.sass";
+
+// $material-light: (
+//     'table': (
+//       hover: #e3e7eb !important
+//     )
+// );
+
+// $body-font-weight: 400;
+// $font-weights: (
+//   'light': 200,
+//   'regular': 400,
+//   'bold': 600
+// );
+
+// .v-application {
+//   .h1,
+//   .h2,
+//   .h3,
+//   .h4,
+//   .display-1,
+//   .display-2,
+//   .display-3,
+//   .display-4,
+//   .headline,
+//   .title,
+//   .subtitle-1,
+//   .subtitle-2,
+//   .body-1,
+//   .body-2,
+//   .caption,
+//   .overline {
+//     font-family: $heading-font-family !important;
+//   }
+
+//   font-family: $heading-font-family !important;
+// }
+
+// .b--text {
+//   color: #0f1048d9 !important;
+// }
+
+// .elevation-cs {
+//   box-shadow: 0 1px 12px #33333321;
+// }
+
+// .w-100 {
+//   width: 100% !important;
+// }
+
+// .gradient-black {
+//   background: linear-gradient(45deg, #0a0a0a, #060606);
+// }
+
+// .gradient-grey {
+//   background: linear-gradient(90deg, #0c0c0c, #0c0c0c);
+// }
+
+// .header-gradient {
+//   background: linear-gradient(360deg, #121212 8.98%, rgba(0, 0, 0, 0) 100%);
+//   position: absolute;
+//   bottom: 0;
+//   height: 220px;
+//   width: 100%;
+// }
+
+// .featured-gradient {
+//   background: linear-gradient(360deg, #0c0c0c 8.98%, rgba(0, 0, 0, 0.027) 100%);
+//   position: absolute;
+//   bottom: 0;
+//   height: 150px;
+//   width: 100%;
+// }
+
+// .rounded {
+//   border-radius: 50px !important;
+// }
+
+// .rounded-sm {
+//   border-radius: 14px !important;
+// }
+
+// .v-slide-group__prev v-slide-group__prev--disabled {
+//   display: none !important;
+// }
+
+// .v-slide-group__prev--disabled {
+//   display: none !important;
+// }
+
+// #rankings::first-letter {
+//   font-size: 24px;
+//   font-weight: bold;
+// }
+
+// #ranking-avatar {
+//   height: 60px !important;
+//   width: 66px !important;
+//   position: absolute !important;
+//   top: 0px !important;
+//   left: -5px !important;
+//   border-top-right-radius: 20px !important;
+//   overflow: hidden !important;
+//   box-shadow: 5px 3px 6px 0px #e0e0e0b8 !important;
+// }
+
+// .transparent {
+//   background-color: transparent !important;
+// }
+
+// a {
+//   color: inherit !important;
+//   text-decoration: none !important;
+// }
+
+// .auth-form {
+//   h1 {
+//     color: #202124;
+//     font-weight: 400;
+//     font-size: 24px;
+//   }
+//   h2 {
+//     color: #202124;
+//     font-weight: 400;
+//     font-size: 16px;
+//   }
+// }
