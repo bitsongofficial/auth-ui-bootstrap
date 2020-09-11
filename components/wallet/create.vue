@@ -38,15 +38,16 @@ export default {
     WalletCreateSeedConfirmation,
     WalletCreateAddressView
   },
+  props: {
+    loading: {
+      type: Boolean,
+      default: false
+    }
+  },
   data() {
     return {
       step: 0
     };
-  },
-  computed: {
-    loading() {
-      return this.$store.getters[`wallet/loading`];
-    }
   }
 };
 </script>
